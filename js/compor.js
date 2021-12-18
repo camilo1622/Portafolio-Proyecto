@@ -63,7 +63,7 @@ function IA(pregunta){
         return "La carrera dura entre 4 a 5 años";
     } 
     //pregunta 2
-    let comPregunta = /cómo[a-z\s]*está/gi;
+    let comPregunta = /como[a-z\s]*estas/gi;
     if(comPregunta.test(pregunta)){
         return "hola bien, en que te puedo ayudar";
     } 
