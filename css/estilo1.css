@@ -1,0 +1,255 @@
+
+  body{
+    background-color: rgba(12, 11, 11, 0.911);
+    color: rgb(231, 230, 230);
+  }
+    div.contenedormenu {
+      position:fixed;
+      z-index:500;
+      top:0;
+      text-align: center;
+      float:left;
+      background-color:  rgb(82, 79, 230);
+      border: 0cm;
+        padding: 30px 5px;
+      margin: 5px 5px;
+      width: 22%;
+    height: 550px;
+    margin: 20px;
+      }
+      nav.menu-fixed {
+        position:sticky;
+        z-index:1024;
+        top:0;
+        max-width:1024px;
+        width:80%;
+        box-shadow:0px 4px 3px rgba(0,0,0,.5);
+      }
+      h1,h2,h6,p.centrado {
+        text-align: center;
+      }
+      a {
+        color: rgb(252, 248, 252);
+        text-decoration: none;
+      }
+      a:hover{
+        background-color:whitesmoke;
+      color:turquoise;
+      }
+      hr{
+        border-color: rgba(40, 41, 1, 0.89);
+      }
+      div#a {
+        text-align: center;
+        border: 0cm;
+        padding: 5px 5px;
+      margin: 5px 5px;
+      width: 274px;
+      }
+      div#a:hover {
+        background-color:whitesmoke;
+        color:turquoise;
+      }
+      .redes{
+        width:25px;
+      }
+      .redes:hover{
+        transform: scale(1.4);
+      }
+   
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+.derecha {
+    text-align: center;
+    float: right;
+    width: 67%;
+
+}
+#main-container{
+    margin: 50px;
+    width: 600px;
+}
+
+table{
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100px;
+    float: left;
+    
+}
+
+th, td{
+   
+    padding: 20px;
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(82, 79, 230);
+    border-bottom: solid 5px ;
+    color: rgb(47, 45, 45);
+
+}
+
+tr:nth-child(even){
+    background-color: rgb(81, 195, 248);
+    color:rgb(47, 45, 45) ;
+}
+
+tr:hover td{
+    background-color: rgb(82, 79, 230);
+    color: rgb(219, 219, 219);
+}
+
+
+
+.contenedorBotones img {
+    width: 40px;
+    margin: 10px 5px;
+    
+    
+}
+
+.contenedorBotones img:hover {
+    transform: scale(1.1);
+
+}
+
+.contenedorPeliculas{
+    background-color: rgb(131, 45, 45);
+    color: black;
+}
+
+.contenedorPeliculas img {
+    width: 230px;
+    margin: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    float: left;
+    margin-top: 35px;
+    height: 300px;
+}
+
+.contenedorPeliculas img:hover{
+    transform:none;
+}
+#linea{
+    border-color: rgb(82, 79, 230);
+
+}
+
+
+.contenedorchatbot{
+  background-color: rgb(142, 214, 236);
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  padding: 10px;
+  border: 3px solid rgba(89, 204, 233, 0.466);
+ position: fixed;
+ bottom: 40px;
+ right: 40px;
+
+}
+.btnChatbot {
+  width: 100%;
+ 
+}
+.btnChatbot:hover{
+  transform: scale(1.1);
+}
+.cuadroChatbot {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(82, 79, 230);
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+.encabezadoChatbot{
+ 
+  width: 280px;
+  height: 30px;
+  padding: 0px;
+  color: snow;
+  font-size: larger;
+}
+.btnCerrar{
+  width: 20px;
+  position: absolute;
+  top:5px;
+  right: 5px;
+}
+
+.btnCerrar:hover{
+  transform: scale(1.2);
+}
+.chatChatbot{
+  background-color:rgb(142, 214, 236);
+  color: rgb(82, 79, 230);
+  height: 270px;
+  padding: 5px;
+  margin: 5px;
+  overflow: scroll;
+}
+.escrituraChatbot{
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  border-radius:10px ;
+  padding: 0px;
+}
+.btnEnviar{
+  width: 25px;
+  float: right;
+}
+.btnEnviar:hover{
+  transform: scale(1.2);
+}
+.mensajes{
+  height:24px;
+  width: 250px;
+  border:1px solid white;
+  border-radius:10px ;
+  color: slategray;
+  float: left;
+  outline: none;
+}
+
+.mensajes:focus{
+  height:24px;
+  border:1px solid white;
+}
+.mensajeUsuario{
+  text-align: right;
+  color: rgb(139, 14, 14);
+
+}
+.chatChatbot::-webkit-scrollbar{
+  -webkit-appearance: none;
+}
+.chatChatbot::-webkit-scrollbar:vertical{
+  width: 10px;
+}
+.chatChatbot::-webkit-scrollbar-button:increment,.chatChatbot::-webkit-scrollbar-button{
+  display: none;
+}
+.chatChatbot::-webkit-scrollbar:horizontal{
+  height: 10px;
+}
+.chatChatbot::-webkit-scrollbar-thumb{
+  background-color: #5edaf0;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+.chatChatbot::-webkit-scrollbar-track{
+  border-radius: 10px;
+}
